@@ -9,6 +9,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBth.addEventListener("click", () => {
+    question.innerHTML="ok ur Gay asf ";
     const noBtnRect = noBth.getBoundingClientRect();
     const maxX = window.innerWidth - noBtnRect.width;
     const maxY = window.innerHeight - noBtnRect.height;
